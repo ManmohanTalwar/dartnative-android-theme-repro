@@ -1,0 +1,25 @@
+{
+  "original_captures": true,
+  "captures": [
+    {
+      "file": "android-repro-dark-reset.png",
+      "bytes": 94623,
+      "sha256": "298ed324748aea7c2b5cf51685c9906580f92b4b5abeed61b3cdcbf4e4230c8c"
+    },
+    {
+      "file": "android-repro-dark-seeded.png",
+      "bytes": 183833,
+      "sha256": "bdd6bb214791262f32605507a550f201ee85bd8f22336e185c756731705899ba"
+    },
+    {
+      "file": "android-repro-light-reset.png",
+      "bytes": 94470,
+      "sha256": "14af358112882116753a166e0d436b2c1142f1d8fa0ecbff90f997b4025d8fd9"
+    },
+    {
+      "file": "android-repro-light-seeded.png",
+      "bytes": 182592,
+      "sha256": "2cd11e2256c97988db1d98b8e79bb8fcd9ddd0a370e9e1bc8692d719a52e4e0c"
+    }
+  ]
+}

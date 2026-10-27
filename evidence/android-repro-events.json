@@ -1,0 +1,154 @@
+{
+  "format_version": 1,
+  "application_id": "club.orb.dntrial.dn_theme_repro",
+  "android_release": "14",
+  "api_level": 34,
+  "abi": "arm64-v8a",
+  "process_id_before": 4392,
+  "process_id_after_os_dark": 4392,
+  "process_id_after_os_light": 4392,
+  "steps": [
+    "OS Light: Seed state, Capture state (sequence 2)",
+    "Actual OS Dark: Capture state (sequence 5); no reload, restart or seed before capture",
+    "OS Dark: Seed state again, Capture state (sequence 6)",
+    "Actual OS Light: Capture state (sequence 9); no reload, restart or seed before capture"
+  ],
+  "events": [
+    {
+      "sequence": 1,
+      "event": "mount",
+      "generation": 1,
+      "state_id": 188761787,
+      "controller_id": 693026274,
+      "count": 0,
+      "text": "Initial draft",
+      "selection": [
+        -1,
+        -1
+      ],
+      "focus": false,
+      "scroll": null
+    },
+    {
+      "sequence": 2,
+      "event": "capture",
+      "generation": 1,
+      "state_id": 188761787,
+      "controller_id": 693026274,
+      "count": 7,
+      "text": "Edited locally",
+      "selection": [
+        1,
+        6
+      ],
+      "focus": true,
+      "scroll": 120
+    },
+    {
+      "sequence": 3,
+      "event": "dispose",
+      "generation": 1,
+      "state_id": 188761787,
+      "controller_id": 693026274,
+      "count": 7,
+      "text": "Edited locally",
+      "selection": [
+        1,
+        6
+      ],
+      "focus": false,
+      "scroll": 120
+    },
+    {
+      "sequence": 4,
+      "event": "mount",
+      "generation": 2,
+      "state_id": 311002305,
+      "controller_id": 974601669,
+      "count": 0,
+      "text": "Initial draft",
+      "selection": [
+        -1,
+        -1
+      ],
+      "focus": false,
+      "scroll": null
+    },
+    {
+      "sequence": 5,
+      "event": "capture",
+      "generation": 2,
+      "state_id": 311002305,
+      "controller_id": 974601669,
+      "count": 0,
+      "text": "Initial draft",
+      "selection": [
+        -1,
+        -1
+      ],
+      "focus": false,
+      "scroll": 0
+    },
+    {
+      "sequence": 6,
+      "event": "capture",
+      "generation": 2,
+      "state_id": 311002305,
+      "controller_id": 974601669,
+      "count": 7,
+      "text": "Edited locally",
+      "selection": [
+        1,
+        6
+      ],
+      "focus": true,
+      "scroll": 120
+    },
+    {
+      "sequence": 7,
+      "event": "dispose",
+      "generation": 2,
+      "state_id": 311002305,
+      "controller_id": 974601669,
+      "count": 7,
+      "text": "Edited locally",
+      "selection": [
+        1,
+        6
+      ],
+      "focus": false,
+      "scroll": 120
+    },
+    {
+      "sequence": 8,
+      "event": "mount",
+      "generation": 3,
+      "state_id": 109017798,
+      "controller_id": 949548436,
+      "count": 0,
+      "text": "Initial draft",
+      "selection": [
+        -1,
+        -1
+      ],
+      "focus": false,
+      "scroll": null
+    },
+    {
+      "sequence": 9,
+      "event": "capture",
+      "generation": 3,
+      "state_id": 109017798,
+      "controller_id": 949548436,
+      "count": 0,
+      "text": "Initial draft",
+      "selection": [
+        -1,
+        -1
+      ],
+      "focus": false,
+      "scroll": 0
+    }
+  ],
+  "scope": "Dart State/controller identities and synthetic values, not native field identity or Orb three-theme parity."
+}

@@ -1,0 +1,37 @@
+Command: dn --suppress-analytics doctor -v
+Captured: 2026-10-27
+Redactions: home directory; unrelated attached-device inventory/connection warnings.
+All doctor diagnostic sections retained. Verbose subprocess traces, Info.plist dumps, and device-discovery JSON omitted; this is a sanitized diagnostic transcript, not raw verbose output.
+The isolated reproduction emulator was already closed; this inventory is not the reproduced run.
+
+[!] DartNative (Channel stable, 1.4.0, on macOS 26.3.1 25D771280a darwin-arm64, locale en-US) [3.7s]
+    • DartNative version 1.4.0 on channel stable at <USER_HOME>/zero
+    ! Warning: `flutter` on your path resolves to <USER_HOME>/fvm/versions/3.47.5/bin/flutter, which is not inside your current DartNative SDK checkout at <USER_HOME>/zero. Consider adding <USER_HOME>/zero/bin to the front of your path.
+    ! Warning: `dart` on your path resolves to <USER_HOME>/fvm/versions/3.47.5/bin/cache/dart-sdk/bin/dart, which is not inside your current DartNative SDK checkout at <USER_HOME>/zero. Consider adding <USER_HOME>/zero/bin to the front of your path.
+    • Downloaded from https://cdn.dartnative.com; "dn upgrade" moves it to the newest release, "dn releases" lists the others
+    • Framework revision 75bc07e9b49 (4 days ago), 2026-10-23 14:11:26 +0200
+    • Framework edition dc8e1ada6b67aaf5
+    • Engine revision 7cd0c59557
+    • Dart version 3.12.0 (build 3.12.0-192.0.dev)
+    • DevTools version 2.55.0
+    • DartNative download mirror https://cdn.dartnative.com
+    • Feature flags: enable-android, enable-ios, cli-animations, enable-native-assets, enable-swift-package-manager, enable-lldb-debugging, enable-uiscene-migration
+    • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
+[!] Android toolchain - develop for Android devices (Android SDK version 37.0.0-rc1) [1,852ms]
+    • Android SDK at <USER_HOME>/Library/Android/sdk
+    • Emulator version 36.1.8.0 (build_id 13784423) (CL:N/A)
+    • Platform android-36, build-tools 37.0.0-rc1
+    • Java binary at: /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java
+      This JDK is specified in your DartNative configuration.
+      To change the current JDK, run: `dn config --jdk-dir="path/to/jdk"`.
+    • Java version Java(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)
+    ! Some Android licenses not accepted. To resolve this, run: dn doctor --android-licenses
+[✓] Xcode - develop for iOS and macOS (Xcode 26.6) [918ms]
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 17F113
+    • CocoaPods version 1.16.2
+[✓] Connected device (5 available) [6.0s]
+    [REDACTED unrelated attached-device inventory and connection warnings]
+[✓] Network resources [705ms]
+    • All expected network resources are available.
+! Doctor found issues in 2 categories.

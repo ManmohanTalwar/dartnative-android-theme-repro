@@ -1,0 +1,10 @@
+{
+  "checked_on": "2026-10-27",
+  "analysis": "lib: no issues",
+  "build": "dn build apk --debug: passed",
+  "build_apk_sha256": "98fcc5cf4a9ec1b15074a1818e117e9fba6ca098059945166e1e527ff1da7806",
+  "source_and_host_match_recorded_run": true,
+  "native_behavior_rerun_for_publication": false,
+  "runtime_evidence": "Previously recorded two seeded transitions in android-repro-events.json; this publication-copy build is a separate compilation check.",
+  "binary_published": false
+}

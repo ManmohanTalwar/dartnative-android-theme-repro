@@ -1,0 +1,57 @@
+{
+  "record_date": "2026-10-27",
+  "sdk": {
+    "release": "1.4.0",
+    "packaging_git_head": "5b4c8d07dfe4f089a9d1c56b8a66b75c7e5ee0c9",
+    "vendor_build_in_packaging_subject": "75bc07e9b49",
+    "engine_content_hash": "ed0d71411e76bf9558f1c4dc8078f3222e364497",
+    "engine_revision": "7cd0c5955781d50a47c06b05555ba52408a5b379",
+    "edition": "dc8e1ada6b67aaf5",
+    "dart": "3.12.0-192.0.dev",
+    "android_aar_sha256": "d486cfcb4aca709d9728dc2f15569c3870cd15d19384374efde71e7f316a8d61",
+    "kernel_build_id": "6a440872d713-20261022T124203Z",
+    "kernel_sdk_revision": "6a440872d7139c55d2e9d79cfe8612b887690dc5",
+    "kernel_framework_revision": "a8311b2db72052af7e0c236737d9f6e2e410e1e0",
+    "upgraded": false
+  },
+  "android": {
+    "read_only_avd": true,
+    "release": "14",
+    "api": 34,
+    "abi": "arm64-v8a",
+    "application_id": "club.orb.dntrial.dn_theme_repro",
+    "process_id": 4392,
+    "capture_pixels": [
+      1344,
+      2992
+    ],
+    "native_host": "unchanged official scaffold",
+    "reproduction_inputs": {
+      "lib/main.dart": {
+        "bytes": 3649,
+        "sha256": "acd54af84278ce7e3db0fe5eeaf3e01d30c72ae644ffcc5827080dd6921dd7f0"
+      },
+      "android/app/src/main/AndroidManifest.xml": {
+        "bytes": 1666,
+        "sha256": "92d82a0d1685c4e51f89c5aa501c3423b713602ccbf81bc1f54de3604b8cee79"
+      },
+      "android/app/src/main/kotlin/club/orb/dntrial/dn_theme_repro/MainActivity.kt": {
+        "bytes": 304,
+        "sha256": "e7acd98db87a070b2d6b44771ce155da6642c7cb0193259c1dc336b201bc9088"
+      },
+      "android/app/src/main/kotlin/club/orb/dntrial/dn_theme_repro/Application.kt": {
+        "bytes": 285,
+        "sha256": "e2da233dc4503582278b3ccdb5b6e87e1c0134fcbb0627ea6df989b4ad0096c7"
+      },
+      "pubspec.lock": {
+        "bytes": 13029,
+        "sha256": "ff6de5b7a6342ad5bf6e1e0914bb4dafee7eae0bdbd6776a0b8c5aa122ec2339"
+      },
+      "build/app/outputs/dn-apk/app-debug.apk": {
+        "bytes": 80374429,
+        "sha256": "10d16f5e5422e70865d6e41bdd021261d2722542b785ded18846cd687b6f5de0"
+      }
+    }
+  },
+  "scope": "Minimal official Android scaffold; two independent seeded transitions. Debug emulator only. No Orb application code, SDK binary, license or native override."
+}
